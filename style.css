@@ -1,0 +1,101 @@
+body {
+  margin-top: 0px;
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+  background-color: #000;
+  font-weight: 100;
+}
+h1 {
+  font-size: 2.5em;
+  font-weight: 100;
+}
+h2 {
+  font-weight: 100;
+  color: white;
+  font-family:"Roboto";
+  font-size: 3em;
+}
+header {
+  font-family: "Roboto", monospace;
+  position: fixed;
+  text-align: CENTER;
+  top: 0px;
+  line-height: 0.4;
+  left: 0px;
+  padding: 0px;
+  background: #000;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  height: 100px; /*100px*/
+  width: 100vw;
+  z-index: 1;
+  color: white;
+}
+.section {
+  position: relative;
+  text-indent: 0px;
+  border-radius: 5px;
+  color: white;
+  padding: 1px 10px 10px 10px;
+  margin-bottom: 20px;
+  font-family: "Roboto";
+  margin: 70px 400px 20px 400px;
+  position: relative;
+  top: 35px;
+  text-align: left;
+  background-color: #000;
+  display: inline-block;
+}
+#home {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background-color: black;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+a {
+  color: #39ff14;
+  text-decoration:none;
+}
+p {
+  font-family: "roboto";
+}
+.title {
+  font-family: "roboto";
+  text-decoration: none;
+  text-size: 1em;
+}
+.atitle {
+  font-family: "roboto";
+  color: grey;
+  text-decoration: none;
+}
+.plain {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+#over {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-130%, -50%);
+}
+#over2 {
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+}
